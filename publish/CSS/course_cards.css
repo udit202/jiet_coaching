@@ -1,0 +1,16 @@
+.img_div{
+    height: 200px;
+    overflow: hidden;
+  }
+  .course-card p{
+    text-align: justify;
+  }
+  /* testimonial */
+  .active-card {
+  background-color: var(--primary-color);
+  color: white;
+  }
+  .course-card a{
+  border-radius: 25px;
+  }
+  

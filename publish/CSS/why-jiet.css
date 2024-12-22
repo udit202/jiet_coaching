@@ -1,0 +1,42 @@
+
+.icon-1{
+    background-color: rgb(4, 65, 4);
+  }
+  .icon-2{
+    background-color: rgb(10, 41, 70);
+  }
+  .icon-3{
+    background-color: rgb(65, 5, 77);
+  }
+  .icon-4{
+    background-color: rgb(104, 14, 14);
+  }
+  .icon-5{
+    background-color: rgb(99, 9, 69);
+  }
+  .icon-6{
+    background-color: rgb(22, 2, 54);
+  }
+  .icon-1 .icon-div{
+    background: rgba(22, 133, 22, 0.733);
+  }
+  .icon-2 .icon-div{
+    background: rgba(116, 160, 218, 0.418);
+  }
+  .icon-3 .icon-div{
+    background: rgba(208, 153, 219, 0.493);
+  }
+  .icon-4 .icon-div{
+    background: rgba(197, 146, 146, 0.747);
+  }
+  .icon-5 .icon-div{
+    background: rgba(139, 144, 187, 0.493);
+  }
+  .icon-6 .icon-div{
+    background: rgb(23, 30, 138);
+  }
+  .why-jiet{
+    margin-top: 60px;
+  }
+  
+  

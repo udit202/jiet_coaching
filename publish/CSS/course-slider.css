@@ -1,0 +1,98 @@
+/* :root {
+    --primary-color: rgb(1, 1, 54);
+    --Second-color: rgb(253, 0, 13);
+} */
+
+/* Default (Mobile) */
+.testimonial {
+    display: none;
+    /* Hide all testimonials initially */
+    flex: 0 0 100%;
+    /* Default to 100% on mobile */
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.testimonial>div{
+    background-color: #EDF2FA;
+    position: relative;
+    height: 130px;
+}
+
+/* Tablet View (1 or 2 items per row) */
+@media (min-width: 576px) and (max-width: 991px) {
+    .testimonial-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .testimonial {
+        display: block;
+        flex: 0 0 50%;
+        /* Show 2 items per row */
+    }
+}
+
+/* Desktop View (3 items per row) */
+@media (min-width: 992px) {
+    .testimonial-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .testimonial {
+        display: block;
+        flex: 0 0 33.33%;
+        /* Show 3 items per row */
+    }
+}
+
+/* Optional: Styling for testimonial images and text */
+.testimonial img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 100px;
+}
+.testimonial a{
+    position: absolute;
+    bottom: 10px;
+    text-decoration: none;
+    left: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+}
+
+.testimonial-main-con {
+    position: relative;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+}
+
+#nextBtn {
+    position: absolute;
+    top: 40%;
+    right: 0px;
+}
+
+.navigation-buttons>button {
+    border: none;
+    background-color: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 0px 7px;
+
+    &:hover {
+        background-color:  rgb(22, 22, 102);
+        color: white;
+    }
+}

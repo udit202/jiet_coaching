@@ -1,0 +1,54 @@
+:root{
+  --primary-color: rgb(13, 110, 253);
+}
+.banner {
+    padding-top: 60px;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(2, 129, 179);
+    font-weight: bold;
+}
+
+.banner h2 {
+    font-size: 1rem;
+    padding-right: 180px;
+}
+
+.head_start {
+    color: rgb(22, 22, 102);
+}
+
+@media screen and (max-width: 576px)  {
+    
+    .banner {
+        padding-top: 10px;
+    }
+    .banner h1 {
+        font-size: 2.4rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(2, 129, 179);
+        font-weight: bold;
+    }
+    .banner h2 {
+        font-size: 1rem;
+        padding-right: 0px;
+        /* margin: 10px 0px; */
+    }
+    
+}
+@media screen and (max-width: 912px){
+    .banner h1 {
+        font-size: 2.4rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(2, 129, 179);
+        font-weight: bold;
+    }
+    .banner h2 {
+        font-size: 1rem;
+        padding-right: 0px;
+        margin: 10px 0px;
+    }
+}
